@@ -1,0 +1,62 @@
+span::first-letter{
+    color: red;
+    font-style: italic;
+    font-size: 25px;
+}
+
+p::first-line{
+    color: green;
+    font-style: italic;
+    font-size: 25px;
+}
+
+*::selection{
+    background-color: blueviolet;
+    font-style: italic;
+    font-size: 25px;
+}
+
+p::selection{
+    background-color: aqua;
+}
+
+main::selection{
+    background-color: black;
+}
+
+article::selection{
+    background-color: brown;
+}
+
+
+ul>li::marker{
+    /* content: '&'; */
+
+    content: "\f061  ";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+}
+
+
+ol>li:nth-child(even)::marker{
+    content: "😍 ";
+}
+
+ol>li:nth-child(odd)::marker{
+    content: "😒 ";
+}
+
+
+ol>li:nth-last-child(2)::marker{
+    content: "🤮";
+}
+
+ol>li:nth-last-child(4)::marker{
+    content: "👌";
+}
+
+ol>li:nth-last-child(6)::marker{
+    content: "🫡";
+}
+
+
