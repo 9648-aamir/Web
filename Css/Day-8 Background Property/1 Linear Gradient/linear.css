@@ -1,0 +1,26 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+div{
+    width: 700px;
+    height: 500px;
+    border: 2px solid  black;
+    background-image: linear-gradient(red,blue,yellow);
+}
+
+div:hover{
+    background-image: url("https://www.hindustantimes.com/ht-img/img/2023/06/25/1600x900/Kiara_Advani_Sidharth_Malhotra_1687665800087_1687665800259.jpg");
+    background-size: 700px 500px;
+}
