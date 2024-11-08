@@ -1,0 +1,19 @@
+
+/* 
+article>p:first-of-type{
+    color: cyan;
+}
+
+article p:last-of-type{
+    color: red;
+}
+
+article span:last-of-type{
+    color: green;
+} */
+
+
+article>span:nth-last-of-type(3){
+    background-color: purple;
+    color: white;
+}

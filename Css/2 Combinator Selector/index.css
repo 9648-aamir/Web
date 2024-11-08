@@ -1,0 +1,27 @@
+article>p{
+    color: red;
+}
+
+article>main>p{
+    color: purple;
+}
+
+article .test{
+    color: orange;
+}
+
+article+div+span{
+    color: rgba(42, 138, 165, 0.605);
+}
+
+section~.p1{
+    color: blue;
+}
+
+article+section>aside>p{
+    color: red;
+}
+
+article+section+section>main{
+    color: magenta;
+}
